@@ -1,0 +1,23 @@
+{
+  "name": "echarts-extend-map",
+  "version": "1.0.0",
+  "description": "echarts 离线地图数据",
+  "main": "index.js",
+  "scripts": {
+    "crawler": "node ./crawler.js"
+  },
+  "keywords": [
+    "echarts",
+    "geoJSON",
+    "离线地图数据"
+  ],
+  "author": "wwen",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.6",
+    "copy-webpack-plugin": "^9.0.0",
+    "log4js": "^6.3.0",
+    "superagent": "^6.1.0"
+  }
+}
