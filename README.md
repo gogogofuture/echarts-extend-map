@@ -1,5 +1,6 @@
 ## echarts 离线地图扩展
 
+### 当前仅支持 echarts 4.x 版本
 ### 功能：
 
 - 对`echarts`进行了扩展，可以直接通过行政区划代码（[各省份行政区划代码](http://preview.www.mca.gov.cn/article/sj/xzqh/2020/2020/202101041104.html)）设置地图.无需手动加载。
