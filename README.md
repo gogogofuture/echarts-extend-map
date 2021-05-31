@@ -1,6 +1,7 @@
 ## echarts 离线地图扩展
 
-### 当前仅支持 echarts 4.x 版本
+### 关于 echarts 引入说明
+
 ### 功能：
 
 - 对`echarts`进行了扩展，可以直接通过行政区划代码（[各省份行政区划代码](http://preview.www.mca.gov.cn/article/sj/xzqh/2020/2020/202101041104.html)）设置地图.无需手动加载。
@@ -65,7 +66,16 @@
 #### step 2. 在代码中引入
 
 ```
-import echarts from "echarts";
+// echarts 4.x 版本
+
+// 1. 全局引入echarts: 通过script标签在 index.html 全局引入echarts
+
+// 2. import echarts from "echarts";
+
+// 关于echarts 5.x版本
+
+// 仅支持全局引入echarts 通过script标签在 index.html 全局引入echarts
+
 import extendEchartsMap from "echarts-extend-map";
 
 extendEchartsMap(echarts);
