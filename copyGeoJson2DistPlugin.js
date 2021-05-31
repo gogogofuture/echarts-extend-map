@@ -14,12 +14,7 @@ class CopyGeoJson2DistPlugin extends CopyPlugin {
   constructor(filenames) {
     const context = path.resolve(__dirname);
 
-    filenames = filenames || [
-      {
-        from: "**",
-        context
-      }
-    ]
+    filenames = filenames || ["*.json"]
 
     const patterns = filenames.map((filename) => {
         return {
